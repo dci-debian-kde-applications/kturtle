@@ -26,13 +26,3 @@ Description: Logo educational programming environment for KDE
  mathematics, geometry and programming.
  .
  This package is part of the KDE education module.
-
-Package: kturtle-dbg
-Section: debug
-Architecture: any
-Breaks: kdeedu-dbg (<< 4:4.6.90)
-Replaces: kdeedu-dbg (<< 4:4.6.90)
-Depends: ${misc:Depends}, kturtle (= ${binary:Version})
-Description:  debugging symbols for the kturtle module
- This package contains debugging files used to investigate problems with
- binaries included in the kturtle module.
