@@ -1,0 +1,35 @@
+Source: kturtle
+Section: devel
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends:  kde-sc-dev-latest (>= 4:4.7.1),
+ cmake, debhelper (>= 7.0.50~), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.7)
+Standards-Version: 3.9.1
+Homepage: https://projects.kde.org/projects/kde/kdeedu/kturtle
+Vcs-Git: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kturtle
+Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kturtle
+
+Package: kturtle
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Logo educational programming environment for KDE
+ KTurtle is an educational programming environment which uses the TurtleScript
+ programming language (inspired by Logo) to make programming as easy and
+ accessible as possible.
+ .
+ The user issues TurtleScript language commands to control the "turtle", which
+ draws on the canvas, making KTurtle suitable for teaching elementary
+ mathematics, geometry and programming.
+ .
+ This package is part of the KDE education module.
+
+Package: kturtle-dbg
+Section: debug
+Architecture: any
+Breaks: kdeedu-dbg (<< 4:4.6.90)
+Replaces: kdeedu-dbg (<< 4:4.6.90)
+Depends: ${misc:Depends}, kturtle (= ${binary:Version})
+Description:  debugging symbols for the kturtle module
+ This package contains debugging files used to investigate problems with
+ binaries included in the kturtle module.
