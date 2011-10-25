@@ -1,12 +1,10 @@
 Source: kturtle
-Section: devel
+Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
- cmake,
- debhelper (>= 7.0.50~),
- pkg-kde-tools (>= 0.12),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.7)
 Standards-Version: 3.9.2
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kturtle
@@ -15,7 +13,9 @@ Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/kturtle.git
 
 Package: kturtle
 Architecture: any
+Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: khelpcenter4
 Description: Logo educational programming environment for KDE
  KTurtle is an educational programming environment which uses the TurtleScript
  programming language (inspired by Logo) to make programming as easy and
