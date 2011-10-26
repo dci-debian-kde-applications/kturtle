@@ -39,6 +39,7 @@ License: GFDL-1.2
 
 Files: debian/*
 Copyright: 2011 Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Copyright: 2011 Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
