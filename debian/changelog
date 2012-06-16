@@ -1,6 +1,7 @@
-kturtle (4:4.8.4-0r1) UNRELEASED; urgency=low
+kturtle (4:4.8.4-1) unstable; urgency=low
 
-  * 
+  * New upstream
+  * Fix up short description
 
  -- Sune Vuorela <sune@debian.org>  Sun, 17 Jun 2012 00:18:56 +0200
 
