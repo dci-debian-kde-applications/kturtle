@@ -1,4 +1,4 @@
-kturtle (4:4.10.2-0r1) UNRELEASED; urgency=low
+kturtle (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -7,7 +7,7 @@ kturtle (4:4.10.2-0r1) UNRELEASED; urgency=low
   * Update Uploaders.
   * No more NEWS file provided upstream, so remove it from docs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Apr 2013 16:41:04 +0200
+ -- Sune Vuorela <sune@debian.org>  Thu, 11 Apr 2013 21:38:58 +0000
 
 kturtle (4:4.8.4-1) unstable; urgency=low
 
