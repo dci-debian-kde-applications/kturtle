@@ -7,7 +7,7 @@ Uploaders: Eshat Cakar <info@eshat.de>,
 Build-Depends: kde-sc-dev-latest (>= 4:4.10),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.10)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.4
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kturtle
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kturtle.git
 Vcs-Browser: http://anonscm.debian.org/git/pkg-kde/kde-sc/kturtle.git
