@@ -1,6 +1,6 @@
 kturtle (4:4.11.3-2) UNRELEASED; urgency=low
 
-  * 
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 14:19:36 +0100
 
