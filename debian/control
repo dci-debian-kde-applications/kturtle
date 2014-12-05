@@ -19,7 +19,7 @@ Package: kturtle
 Architecture: any
 Section: devel
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: educational programming environment
  KTurtle is an educational programming environment which uses the TurtleScript
  programming language (inspired by Logo) to make programming as easy and
