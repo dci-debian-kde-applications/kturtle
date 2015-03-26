@@ -4,6 +4,12 @@ kturtle (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 12:58:26 +0100
 
+kturtle (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:28:43 -0700
+
 kturtle (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
