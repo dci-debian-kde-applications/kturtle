@@ -7,13 +7,13 @@ Uploaders: Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               pkg-kde-tools (>= 0.12),
                extra-cmake-modules (>= 1.0.0),
-               libqt5svg5-dev (>= 5.0.0),
-               libkf5newstuff-dev,
+               kio-dev,
                libkf5i18n-dev,
                libkf5kdelibs4support-dev,
-               kio-dev
+               libkf5newstuff-dev,
+               libqt5svg5-dev (>= 5.0.0),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kturtle
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kturtle.git
