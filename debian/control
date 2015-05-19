@@ -14,9 +14,9 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5i18n-dev,
                libkf5kdelibs4support-dev,
                libkf5newstuff-dev,
-               libqt5svg5-dev (>= 5.0.0~),
+               libqt5svg5-dev (>= 5.4),
                pkg-kde-tools (>= 0.12),
-               qtbase5-dev (>= 5.0.0~)
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kturtle
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kturtle.git
