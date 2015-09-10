@@ -6,6 +6,30 @@ kturtle (4:15.08.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 14:08:18 +0200
 
+kturtle (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:43:37 +0100
+
+kturtle (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:20:54 +0100
+
+kturtle (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:39:46 +0200
+
 kturtle (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).
