@@ -1,8 +1,21 @@
-kturtle (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kturtle (4:15.12.0-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Merged with Debian 
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:27:24 +0000
+ -- Clive Johnston <clivejo@aol.com>  Tue, 09 Feb 2016 14:12:52 +0000
+
+kturtle (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:53 +0100
+
+kturtle (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:36 +0100
 
 kturtle (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -16,6 +29,14 @@ kturtle (4:15.08.1-0ubuntu1) wily; urgency=medium
   * New upstream release (15.08.1)
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:34:55 +0100
+
+kturtle (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 16:01:46 +0200
 
 kturtle (4:15.08.0-0ubuntu1) wily; urgency=medium
 
@@ -40,6 +61,12 @@ kturtle (4:15.04.2-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:39:46 +0200
+
+kturtle (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:43 +0200
 
 kturtle (4:14.12.3-0ubuntu1) vivid; urgency=medium
 

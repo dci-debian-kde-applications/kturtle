@@ -5,15 +5,20 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Eshat Cakar <info@eshat.de>,
            Pino Toscano <pino@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 1.0.0),
+               extra-cmake-modules (>= 1.7.0~),
+               kdoctools-dev,
                kio-dev,
+               libkf5coreaddons-dev,
+               libkf5crash-dev,
                libkf5i18n-dev,
                libkf5kdelibs4support-dev,
                libkf5newstuff-dev,
-               libqt5svg5-dev (>= 5.0.0),
-               pkg-kde-tools (>= 0.12)
+               libkf5textwidgets-dev,
+               libqt5svg5-dev (>= 5.4),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/kdeedu/kturtle
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kturtle.git

@@ -3,9 +3,20 @@ Upstream-Name: kturtle
 Source: ftp.kde.org
 
 Files: *
-Copyright: 2003-2008, Cies Breijs <cies@kde.nl>
-           2007 Niels Slot <nielsslot@gmail.com>
+Copyright: 2008, Andy Teijelo <ateijelo@gmail.com>
+           2009, Cies Breijs
+           2003-2009, Cies Breijs <cies@kde.nl>
+           1989-1991, Free Software Foundation, Inc
+           2009, Niels Slot
+           2007, Niels Slot <nielsslot@gmail.com>
 License: GPL-2+
+
+Files: src/interpreter/definitions.rb
+       src/interpreter/generate.rb
+       src/interpreter/gui_connect.inc
+Copyright: 2005-2009, Cies Breijs
+           2003-2006, Cies Breijs <cies@kde.nl>
+License: GPL-2
 
 Files: doc/*
 Copyright: 2004-2009, Cies Breijs <cies@kde.nl>
@@ -25,6 +36,24 @@ License: GFDL-1.2
 Files: debian/*
 Copyright: 2011 Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of version 2 of the GNU General Public
+ License as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this program; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
