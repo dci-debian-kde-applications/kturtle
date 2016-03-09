@@ -1,9 +1,9 @@
-kturtle (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+kturtle (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * New upstream release
   * Merged with Debian 
 
- -- Clive Johnston <clivejo@aol.com>  Tue, 09 Feb 2016 14:12:52 +0000
+ -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 11:23:26 +0100
 
 kturtle (4:15.12.0-1) experimental; urgency=medium
 
