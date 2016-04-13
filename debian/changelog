@@ -1,3 +1,11 @@
+kturtle (4:15.12.0-2~1.gbp7735cb) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @7735cb7a6108c9824b2f443803bf06e3dea9ea6c **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:39:30 +0200
+
 kturtle (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
