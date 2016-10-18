@@ -1,10 +1,8 @@
-kturtle (4:16.08.0-1~1.gbp9af196) UNRELEASED; urgency=medium
+kturtle (4:16.08.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @9af196bcb9b2d2b96d29d23c9f9280a4b0108872 **
+  * New upstream release (16.08.0)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:39:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 09:45:46 +0200
 
 kturtle (4:16.04.0-2) unstable; urgency=medium
 
