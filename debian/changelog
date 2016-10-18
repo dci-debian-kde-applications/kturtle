@@ -1,3 +1,11 @@
+kturtle (4:16.08.0-2~1.gbpb2d2fe) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b2d2fec04686e5fb1846b997df03343c325941e6 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 10:39:26 +0200
+
 kturtle (4:16.08.0-1) unstable; urgency=medium
 
   * New upstream release (16.08.0)
