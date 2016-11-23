@@ -1,11 +1,12 @@
-kturtle (4:16.08.3-1~1.gbp6b7802) UNRELEASED; urgency=medium
+kturtle (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @6b78025fdd67a54a123e1c6dd69bf14a8b994387 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 10 Nov 2016 23:39:48 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.3)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 21:17:45 +0100
 
 kturtle (4:16.08.0-1) unstable; urgency=medium
 
