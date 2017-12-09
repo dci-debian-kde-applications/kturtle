@@ -1,5 +1,8 @@
 kturtle (4:17.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Adjust again l10npkgs_firstversion_ok to the fixed version of kde-
+    l10n. (Closes: #883633)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Dec 2017 10:24:26 +0100
 
