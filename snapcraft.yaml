@@ -1,0 +1,53 @@
+---
+name: kturtle
+version: 17.08.1
+summary: Educational Programming Environment
+description: KTurtle is an educational programming environment for learning how to
+    program. It provides all programming tools from its user interface. The programming
+    language used is TurtleScript, which is loosely based on Logo. All commands and
+    messages are translated into the user's language. KTurtle features an intuitive
+    syntax highlighting, simple error messages, integrated canvas to make drawings,
+    an integrated help, slow-motion and step execution.
+confinement: strict
+grade: stable
+apps:
+    kturtle:
+        command: kf5-launch kturtle
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+slots:
+    session-dbus-interface:
+        interface: dbus
+        name: org.kde.kturtle
+        bus: session
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kturtle:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libkf5kdelibs4support-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kturtle-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
